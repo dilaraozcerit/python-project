@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyN3xzKrWx95fQ1pfcrNRAKM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dilaraozcerit/python-project/blob/main/prime%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "c56h22mVOmgP"
+      },
+      "source": [
+        "n = int(input(\"Please enter a number to check if it is a prime number: \"))\n",
+        "for i in range(2, n):\n",
+        "    if (n % i) == 0:\n",
+        "      print(n, \"is not a prime number\")\n",
+        "      break\n",
+        "else:\n",
+        "  print(n, \"is a prime number\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
