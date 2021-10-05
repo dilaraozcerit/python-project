@@ -1,2 +1,2 @@
 # python-project
-thid repo will be used for python projects.
+This repo will be used for python projects.
